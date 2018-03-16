@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>登陆页面</title>
+        <link rel="stylesheet" href="css/main.css"/>
+        <link rel="stylesheet" href="css/public.css"/>
+    </head>
+    <body>
+       <a href="http:www.baidu.com"><img alt="fuck me Git" src="images/1dbSqT9ykm.png"></a>
+        <div id="login">
+            <div id="login-logo">
+               <img alt="logo" src="images/logo.png"/>
+                <p>校园二手街</p>
+                <img id="other-login" src="images/co-login.png" border="0" alt="other login" usemap="co-login"/>
+                <map name="co-login" id="co=login">
+                    <area shape="rect" coords="0,0,195,226" href="http:www.baidu.com" target="_blank" alt="QQ登陆"/>
+                    <area shape="rect" coords="0,0,355,229" href="#" target="_blank" alt="微信登陆"/>
+                </map>
+            </div>
+            <div id="login-news">
+                <form>
+                    <input type="email" placeholder="用户名／邮箱" name="e-mail"/>
+                    <input type="password" placeholder="密码" name="password"/><br/>
+                    <span><input type="checkbox" name="remmber-password" />记住我</span>
+                    <a href="#">忘记密码</a>
+                    <div style="clear:both"></div>
+                    <input type="button" value="登陆二手街" id="user-login"/>
+                </form>
+                <a href="#">马上注册</a>
+            </div>
+        </div>
+        <script type="text/javascript" src="tools/jquery-1.11.2.min.js"></script>
+        <script type="text/javascript" src="tools/sea.js"></script>
+        <script>
+           seajs.config({
+                base:"./js",
+                alias:{
+                    "jQuery":"./tools/jquery-1.11.2.min.js"
+                }
+            });
+            seajs.use("./js/main");
+        </script>
+    </body>
+</html>

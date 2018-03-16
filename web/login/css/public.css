@@ -1,0 +1,13 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+}
+body{
+    background-color:darkgray;
+}
+body a img{
+    margin-top: -20px;
+    border-color:darkgray;
+    float: right;
+}
